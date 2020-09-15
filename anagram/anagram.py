@@ -5,7 +5,7 @@
 
 def sort_letters(word):
     """
-    Convert word to list and order its charaters
+    Convert word to list and order its charaters. 
 
     Arguments:
         word {string} -- Any word
@@ -39,4 +39,3 @@ def find_anagrams(word, candidates):
             anagrams.append(candidates[idx])
 
     return anagrams
-
