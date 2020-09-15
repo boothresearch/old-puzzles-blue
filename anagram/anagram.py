@@ -22,8 +22,6 @@ def find_anagrams(word, candidates):
     """
     Given a word and a list of possible anagrams, select the correct sublist.
 
-    Given "listen" and a list of candidates like "enlists" "google" "inlets" "banana" the program should return a list containing "inlets"
-
     Arguments:
         word {string} -- Any word
         candidates {list} -- List of words
@@ -41,3 +39,4 @@ def find_anagrams(word, candidates):
             anagrams.append(candidates[idx])
 
     return anagrams
+
